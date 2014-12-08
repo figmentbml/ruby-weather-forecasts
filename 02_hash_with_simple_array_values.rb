@@ -9,3 +9,4 @@ forecast = {
 }
 
 #----- your code below -----
+p forecast.each {|day, temp| puts "#{day}: High of #{temp[0]}, Low of #{temp[1]}"}
